@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EECE7B92AE465C400954B65 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EECE7B82AE465C400954B65 /* main.cpp */; };
+		1EECE7C42AE4671800954B65 /* victorian_chair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EECE7C22AE4671800954B65 /* victorian_chair.cpp */; };
+		1EECE7C72AE4676600954B65 /* modern_chair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EECE7C52AE4676600954B65 /* modern_chair.cpp */; };
+		1EECE7CB2AE467F800954B65 /* victorian_sofa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EECE7C92AE467F800954B65 /* victorian_sofa.cpp */; };
+		1EECE7CE2AE4693A00954B65 /* moder_sofa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EECE7CC2AE4693A00954B65 /* moder_sofa.cpp */; };
+		1EECE7D42AE46AC600954B65 /* moder_factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EECE7D22AE46AC600954B65 /* moder_factory.cpp */; };
+		1EECE7D72AE46B2100954B65 /* victorian_factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EECE7D52AE46B2100954B65 /* victorian_factory.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EECE7B32AE465C400954B65 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EECE7B52AE465C400954B65 /* Abstract_Factory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Abstract_Factory; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EECE7B82AE465C400954B65 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1EECE7C02AE4660100954B65 /* chair.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = chair.hpp; sourceTree = "<group>"; };
+		1EECE7C22AE4671800954B65 /* victorian_chair.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = victorian_chair.cpp; sourceTree = "<group>"; };
+		1EECE7C32AE4671800954B65 /* victorian_chair.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = victorian_chair.hpp; sourceTree = "<group>"; };
+		1EECE7C52AE4676600954B65 /* modern_chair.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = modern_chair.cpp; sourceTree = "<group>"; };
+		1EECE7C62AE4676600954B65 /* modern_chair.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = modern_chair.hpp; sourceTree = "<group>"; };
+		1EECE7C82AE467E500954B65 /* sofa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sofa.h; sourceTree = "<group>"; };
+		1EECE7C92AE467F800954B65 /* victorian_sofa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = victorian_sofa.cpp; sourceTree = "<group>"; };
+		1EECE7CA2AE467F800954B65 /* victorian_sofa.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = victorian_sofa.hpp; sourceTree = "<group>"; };
+		1EECE7CC2AE4693A00954B65 /* moder_sofa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moder_sofa.cpp; sourceTree = "<group>"; };
+		1EECE7CD2AE4693A00954B65 /* moder_sofa.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = moder_sofa.hpp; sourceTree = "<group>"; };
+		1EECE7D02AE4698F00954B65 /* furnitue_factory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = furnitue_factory.hpp; sourceTree = "<group>"; };
+		1EECE7D22AE46AC600954B65 /* moder_factory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moder_factory.cpp; sourceTree = "<group>"; };
+		1EECE7D32AE46AC600954B65 /* moder_factory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = moder_factory.hpp; sourceTree = "<group>"; };
+		1EECE7D52AE46B2100954B65 /* victorian_factory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = victorian_factory.cpp; sourceTree = "<group>"; };
+		1EECE7D62AE46B2100954B65 /* victorian_factory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = victorian_factory.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EECE7B22AE465C400954B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EECE7AC2AE465C400954B65 = {
+			isa = PBXGroup;
+			children = (
+				1EECE7D92AF0D6F000954B65 /* facade */,
+				1EECE7B72AE465C400954B65 /* Abstract_Factory */,
+				1EECE7B62AE465C400954B65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EECE7B62AE465C400954B65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EECE7B52AE465C400954B65 /* Abstract_Factory */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EECE7B72AE465C400954B65 /* Abstract_Factory */ = {
+			isa = PBXGroup;
+			children = (
+				1EECE7B82AE465C400954B65 /* main.cpp */,
+				1EECE7C02AE4660100954B65 /* chair.hpp */,
+				1EECE7C22AE4671800954B65 /* victorian_chair.cpp */,
+				1EECE7C32AE4671800954B65 /* victorian_chair.hpp */,
+				1EECE7C52AE4676600954B65 /* modern_chair.cpp */,
+				1EECE7C62AE4676600954B65 /* modern_chair.hpp */,
+				1EECE7C82AE467E500954B65 /* sofa.h */,
+				1EECE7C92AE467F800954B65 /* victorian_sofa.cpp */,
+				1EECE7CA2AE467F800954B65 /* victorian_sofa.hpp */,
+				1EECE7CC2AE4693A00954B65 /* moder_sofa.cpp */,
+				1EECE7CD2AE4693A00954B65 /* moder_sofa.hpp */,
+				1EECE7D02AE4698F00954B65 /* furnitue_factory.hpp */,
+				1EECE7D22AE46AC600954B65 /* moder_factory.cpp */,
+				1EECE7D32AE46AC600954B65 /* moder_factory.hpp */,
+				1EECE7D52AE46B2100954B65 /* victorian_factory.cpp */,
+				1EECE7D62AE46B2100954B65 /* victorian_factory.hpp */,
+			);
+			path = Abstract_Factory;
+			sourceTree = "<group>";
+		};
+		1EECE7D92AF0D6F000954B65 /* facade */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = facade;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EECE7B42AE465C400954B65 /* Abstract_Factory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EECE7BC2AE465C400954B65 /* Build configuration list for PBXNativeTarget "Abstract_Factory" */;
+			buildPhases = (
+				1EECE7B12AE465C400954B65 /* Sources */,
+				1EECE7B22AE465C400954B65 /* Frameworks */,
+				1EECE7B32AE465C400954B65 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Abstract_Factory;
+			productName = Abstract_Factory;
+			productReference = 1EECE7B52AE465C400954B65 /* Abstract_Factory */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EECE7AD2AE465C400954B65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1EECE7B42AE465C400954B65 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1EECE7B02AE465C400954B65 /* Build configuration list for PBXProject "Abstract_Factory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EECE7AC2AE465C400954B65;
+			productRefGroup = 1EECE7B62AE465C400954B65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EECE7B42AE465C400954B65 /* Abstract_Factory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EECE7B12AE465C400954B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EECE7D42AE46AC600954B65 /* moder_factory.cpp in Sources */,
+				1EECE7D72AE46B2100954B65 /* victorian_factory.cpp in Sources */,
+				1EECE7CE2AE4693A00954B65 /* moder_sofa.cpp in Sources */,
+				1EECE7B92AE465C400954B65 /* main.cpp in Sources */,
+				1EECE7C72AE4676600954B65 /* modern_chair.cpp in Sources */,
+				1EECE7CB2AE467F800954B65 /* victorian_sofa.cpp in Sources */,
+				1EECE7C42AE4671800954B65 /* victorian_chair.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EECE7BA2AE465C400954B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1EECE7BB2AE465C400954B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1EECE7BD2AE465C400954B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EECE7BE2AE465C400954B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EECE7B02AE465C400954B65 /* Build configuration list for PBXProject "Abstract_Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EECE7BA2AE465C400954B65 /* Debug */,
+				1EECE7BB2AE465C400954B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EECE7BC2AE465C400954B65 /* Build configuration list for PBXNativeTarget "Abstract_Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EECE7BD2AE465C400954B65 /* Debug */,
+				1EECE7BE2AE465C400954B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EECE7AD2AE465C400954B65 /* Project object */;
+}
